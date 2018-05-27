@@ -1,0 +1,33 @@
+$type: card
+properties:
+  view1:
+    type: element
+    title: View
+    xtype: at-core-view
+    view: |-
+      <div class="layout-horizontal layout-center">
+      <iron-image src="{{picture}}" style="width:60px; height:60px; background-color: lightgray;" sizing="cover" preload></iron-image>
+      <div class="m">
+        {{title}}
+      </div>
+      </div>
+    modelRoot: state.model
+$meta:
+  cardId: 428
+  preview-mode: static
+  preview-container: item
+  search-term: 
+  service-url: 
+  preview-data: |-
+    {
+          "id": "17",
+          "title": "deanna hughes",
+          "description": "deanna.hughes@example.com",
+          "picture": "https://randomuser.me/api/portraits/women/17.jpg"
+    }
+  xclass: 
+  xstyle: 
+  code: |-
+    action.initialize = function(evt) {
+      //debugger;
+    }

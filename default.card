@@ -1,0 +1,159 @@
+$type: card
+rules: []
+properties:
+  title:
+    type: element
+    xtype: at-carbon-card-title
+    title: Basic Card Sample
+    xgridcols: 12
+    xstyle: 
+    xclass: 
+    actionListeners:
+      - _start
+  vlist3:
+    type: element
+    xtype: at-core-vlist
+    itemComponent: new-hires/new-hires-item-card
+    cardHeight: 60px
+    listHeight: 180px
+$meta:
+  cardId: !!int 428
+  preview-data: |-
+    {
+      "_action": "firstpage",
+      "_page": 1,
+      "_pageSize": 20,
+      "items": [
+        {
+          "id": "17",
+          "title": "deanna hughes",
+          "description": "deanna.hughes@example.com",
+          "picture": "https://randomuser.me/api/portraits/women/17.jpg"
+        },
+        {
+          "id": "26",
+          "title": "gökhan tekand",
+          "description": "gökhan.tekand@example.com",
+          "picture": "https://randomuser.me/api/portraits/men/26.jpg"
+        },
+        {
+          "id": "23",
+          "title": "albert santiago",
+          "description": "albert.santiago@example.com",
+          "picture": "https://randomuser.me/api/portraits/men/23.jpg"
+        },
+        {
+          "id": "22",
+          "title": "william madsen",
+          "description": "william.madsen@example.com",
+          "picture": "https://randomuser.me/api/portraits/men/22.jpg"
+        },
+        {
+          "id": "16",
+          "title": "egídio campos",
+          "description": "egídio.campos@example.com",
+          "picture": "https://randomuser.me/api/portraits/men/16.jpg"
+        },
+        {
+          "id": "44",
+          "title": "tara kraus",
+          "description": "tara.kraus@example.com",
+          "picture": "https://randomuser.me/api/portraits/women/44.jpg"
+        },
+        {
+          "id": "86",
+          "title": "guta moura",
+          "description": "guta.moura@example.com",
+          "picture": "https://randomuser.me/api/portraits/women/86.jpg"
+        },
+        {
+          "id": "60",
+          "title": "mariano vicente",
+          "description": "mariano.vicente@example.com",
+          "picture": "https://randomuser.me/api/portraits/men/60.jpg"
+        },
+        {
+          "id": "17",
+          "title": "gonda braakhekke",
+          "description": "gonda.braakhekke@example.com",
+          "picture": "https://randomuser.me/api/portraits/women/17.jpg"
+        },
+        {
+          "id": "52",
+          "title": "marian castro",
+          "description": "marian.castro@example.com",
+          "picture": "https://randomuser.me/api/portraits/women/52.jpg"
+        },
+        {
+          "id": "86",
+          "title": "rémi blanchard",
+          "description": "rémi.blanchard@example.com",
+          "picture": "https://randomuser.me/api/portraits/men/86.jpg"
+        },
+        {
+          "id": "53",
+          "title": "lylou vincent",
+          "description": "lylou.vincent@example.com",
+          "picture": "https://randomuser.me/api/portraits/women/53.jpg"
+        },
+        {
+          "id": "32",
+          "title": "gastão dias",
+          "description": "gastão.dias@example.com",
+          "picture": "https://randomuser.me/api/portraits/men/32.jpg"
+        },
+        {
+          "id": "70",
+          "title": "thea robinson",
+          "description": "thea.robinson@example.com",
+          "picture": "https://randomuser.me/api/portraits/women/70.jpg"
+        },
+        {
+          "id": "58",
+          "title": "anna zimmermann",
+          "description": "anna.zimmermann@example.com",
+          "picture": "https://randomuser.me/api/portraits/women/58.jpg"
+        },
+        {
+          "id": "81",
+          "title": "isabella gill",
+          "description": "isabella.gill@example.com",
+          "picture": "https://randomuser.me/api/portraits/women/81.jpg"
+        },
+        {
+          "id": "82",
+          "title": "adèle roche",
+          "description": "adèle.roche@example.com",
+          "picture": "https://randomuser.me/api/portraits/women/82.jpg"
+        },
+        {
+          "id": "90",
+          "title": "juho jarvela",
+          "description": "juho.jarvela@example.com",
+          "picture": "https://randomuser.me/api/portraits/men/90.jpg"
+        },
+        {
+          "id": "89",
+          "title": "yasemin kunter",
+          "description": "yasemin.kunter@example.com",
+          "picture": "https://randomuser.me/api/portraits/women/89.jpg"
+        },
+        {
+          "id": "18",
+          "title": "doutsen schuurhuis",
+          "description": "doutsen.schuurhuis@example.com",
+          "picture": "https://randomuser.me/api/portraits/women/18.jpg"
+        }
+      ],
+      "_settings": {}
+    }
+  preview-mode: live
+  preview-container: event
+  search-term: 
+  service-url: 
+  xclass: 
+  xstyle: 
+  code: |-
+    action.initialize = function(evt) {
+      //debugger;
+    }
